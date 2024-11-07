@@ -7,7 +7,7 @@ export const siteConfig: SiteConfig = {
   url: "https://renamer.me",
   ogImage: "https://renamer.me/og.png",
   links: {
-    twitter: "https://twitter.com/keepeer",
-    github: "https://github.com/rejaulkariim/keepeer",
+    twitter: "https://twitter.com/renamerme",
+    github: "https://github.com/rejaulkariim/renamer",
   },
 };
