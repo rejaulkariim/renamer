@@ -1,5 +1,12 @@
 import WishlistForm from "@/components/forms/WishlistForm";
 import MaxWidthWrapper from "@/components/shared/MaxWidthWrapper";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Wishlist",
+  description:
+    "Join our waitlist and get early access to our product. Get notified when we launch our product.",
+};
 
 const WishlistPage = () => {
   return (
