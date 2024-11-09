@@ -1,7 +1,6 @@
 import MaxWidthWrapper from "@/components/shared/MaxWidthWrapper";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import Image from "next/image";
 import Link from "next/link";
 
 const Hero = () => {
@@ -35,14 +34,14 @@ const Hero = () => {
               </Link>
             </div>
           </div>
-          <div className="bg-rose-500 h-44 w-1/2">
+          {/* <div className="bg-rose-500 h-44 w-1/2">
             <Image
               src={"/images/hero.png"}
               alt="hero"
               width={1000}
               height={440}
             />
-          </div>
+          </div> */}
         </div>
       </MaxWidthWrapper>
     </section>
