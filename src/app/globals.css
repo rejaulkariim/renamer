@@ -67,3 +67,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.button {
+  @apply px-6;
+}

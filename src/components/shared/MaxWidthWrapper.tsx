@@ -9,7 +9,10 @@ const MaxWidthWrapper = ({
 }) => {
   return (
     <div
-      className={cn("max-w-screen-2xl px-4 md:px-20 h-full w-full", className)}
+      className={cn(
+        "max-w-screen-2xl px-4 md:px-20 lg:px-28 h-full w-full",
+        className
+      )}
     >
       {children}
     </div>

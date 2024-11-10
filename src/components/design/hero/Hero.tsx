@@ -1,14 +1,15 @@
 import MaxWidthWrapper from "@/components/shared/MaxWidthWrapper";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 import Link from "next/link";
 
 const Hero = () => {
   return (
     <section className="flex items-center justify-center min-h-[80vh] bg-background">
       <MaxWidthWrapper>
-        <div className="flex justify-between items-center gap-10">
-          <div className="w-1/2 space-y-4">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-10">
+          <div className="w-full md:w-1/2 space-y-4">
             <div className="flex flex-col space-y-4">
               <h1 className="tracking-tight font-bold !leading-tight text-foreground text-3xl md:text-6xl">
                 Showcase and grow your saas startup
@@ -26,7 +27,7 @@ const Hero = () => {
                 className={cn(
                   buttonVariants({
                     size: "lg",
-                    className: "py-6 text-base font-medium",
+                    className: "button",
                   })
                 )}
               >
@@ -34,14 +35,17 @@ const Hero = () => {
               </Link>
             </div>
           </div>
-          {/* <div className="bg-rose-500 h-44 w-1/2">
+          <div className="w-full md:w-1/2">
             <Image
-              src={"/images/hero.png"}
+              src={"/assets/images/hero.png"}
               alt="hero"
               width={1000}
               height={440}
+              className="rounded-lg"
+              priority
+              draggable="false"
             />
-          </div> */}
+          </div>
         </div>
       </MaxWidthWrapper>
     </section>
