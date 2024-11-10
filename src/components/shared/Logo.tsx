@@ -4,13 +4,11 @@ import { Icons } from "./Icons";
 
 const Logo = () => {
   return (
-    <Link
-      href="/"
-      className="font-bold flex items-center gap-0.5 rounded-full group"
-    >
-      <Icons.logo className="size-8 text-foreground transform transition-transform duration-500 group-hover:rotate-180" />
-
-      <span className="font-extrabold text-lg mt-0.5 leading-tight tracking-tight">
+    <Link href="/" aria-label="Home" className="flex gap-2 items-center group">
+      <span className="size-8 bg-primary-foreground rounded-xl flex items-center justify-center">
+        <Icons.logo className="w-6 h-6 text-foreground transform transition-transform duration-500 group-hover:rotate-180" />
+      </span>
+      <span className="text-lg font-bold leading-tight tracking-tight">
         {siteConfig.name}
       </span>
     </Link>
