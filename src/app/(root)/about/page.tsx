@@ -1,7 +1,14 @@
 import MaxWidthWrapper from "@/components/shared/MaxWidthWrapper";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { FaXTwitter } from "react-icons/fa6";
+
+export const metadata: Metadata = {
+  title: "About",
+  description:
+    "We help founders and entrepreneurs showcase their startups and all their creations in one single place.",
+};
 
 const AboutPage = () => {
   return (
