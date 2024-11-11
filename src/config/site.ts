@@ -3,7 +3,7 @@ import { SiteConfig } from "@/types";
 export const siteConfig: SiteConfig = {
   name: "Renamer",
   description:
-    "Your personal indie page to showcase all your saas startups and everything you create.",
+    "Attract new users, and skyrocket your revenue with your personalized indie page.",
   url: "https://renamer.me",
   ogImage: "https://renamer.me/og.png",
   links: {

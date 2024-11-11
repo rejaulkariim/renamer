@@ -15,6 +15,18 @@ const WishlistPage = () => {
     <section className="flex items-center justify-center min-h-[80vh] bg-background">
       <MaxWidthWrapper>
         <div className="flex flex-col md:flex-row justify-between items-center gap-10">
+          <div className="w-full md:w-1/2">
+            <Image
+              src={"/assets/images/hero.png"}
+              alt="hero"
+              width={1000}
+              height={440}
+              className="rounded-lg"
+              priority
+              draggable="false"
+            />
+          </div>
+
           <div className="w-full md:w-1/2 space-y-4">
             <div className="flex flex-col space-y-4">
               <h1 className="tracking-tight font-bold !leading-tight text-foreground text-3xl md:text-5xl">
@@ -67,11 +79,11 @@ const WishlistPage = () => {
 
               <div className="flex flex-col justify-between">
                 <div className="flex gap-0.5">
-                  <Star className="h-4 w-4 text-foreground fill-primary-foreground" />
-                  <Star className="h-4 w-4 text-foreground fill-primary-foreground" />
-                  <Star className="h-4 w-4 text-foreground fill-primary-foreground" />
-                  <Star className="h-4 w-4 text-foreground fill-primary-foreground" />
-                  <Star className="h-4 w-4 text-foreground fill-primary-foreground" />
+                  <Star className="h-4 w-4 text-amber-400 fill-amber-400" />
+                  <Star className="h-4 w-4 text-amber-400 fill-amber-400" />
+                  <Star className="h-4 w-4 text-amber-400 fill-amber-400" />
+                  <Star className="h-4 w-4 text-amber-400 fill-amber-400" />
+                  <Star className="h-4 w-4 text-amber-400 fill-amber-400" />
                 </div>
 
                 <p className="text-sm font-medium text-foreground mt-1">
@@ -79,17 +91,6 @@ const WishlistPage = () => {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="w-full md:w-1/2">
-            <Image
-              src={"/assets/images/hero.png"}
-              alt="hero"
-              width={1000}
-              height={440}
-              className="rounded-lg"
-              priority
-              draggable="false"
-            />
           </div>
         </div>
       </MaxWidthWrapper>

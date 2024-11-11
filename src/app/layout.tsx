@@ -4,10 +4,10 @@ import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-const poppins = localFont({
-  src: "../app/fonts/PoppinsVF.ttf",
+const manrope = localFont({
+  src: "../app/fonts/ManropeVF.ttf",
   weight: "100 200 300 400 500 600 700 800 900",
-  variable: "--font-poppins",
+  variable: "--font-manrope",
 });
 
 export const metadata: Metadata = {
@@ -69,7 +69,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn("antialiased", poppins.className)}>{children}</body>
+      <body className={cn("antialiased", manrope.className)}>{children}</body>
     </html>
   );
 }
