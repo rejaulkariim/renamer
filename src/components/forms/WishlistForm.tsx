@@ -46,7 +46,9 @@ const WishlistForm = () => {
           )}
         />
 
-        <Button type="submit">Get Notified</Button>
+        <Button type="submit" size="lg">
+          Get Notified
+        </Button>
       </form>
     </Form>
   );

@@ -19,7 +19,6 @@ const Hero = () => {
                 Your personal indie page to showcase all your startups <br />{" "}
                 and everyting you create in a single place.
               </p>
-              {/* TODO: add wishlist form */}
             </div>
 
             <div>
