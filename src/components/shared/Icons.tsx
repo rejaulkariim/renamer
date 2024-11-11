@@ -1,9 +1,16 @@
 type IconProps = React.HTMLAttributes<SVGElement>;
 
-import { Asterisk, BriefcaseBusiness, CircleCheck, Pencil } from "lucide-react";
+import {
+  Asterisk,
+  BriefcaseBusiness,
+  CircleCheck,
+  Loader,
+  Pencil,
+} from "lucide-react";
 
 export const Icons = {
   logo: Asterisk,
+  loader: Loader,
   check: CircleCheck,
   bag: BriefcaseBusiness,
   pencil: Pencil,

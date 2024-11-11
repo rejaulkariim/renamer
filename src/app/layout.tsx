@@ -1,3 +1,4 @@
+import { Toaster } from "@/components/ui/sonner";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 import type { Metadata, Viewport } from "next";
@@ -69,7 +70,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn("antialiased", manrope.className)}>{children}</body>
+      <body className={cn("antialiased", manrope.className)}>
+        <main>{children}</main>
+        <Toaster />
+      </body>
     </html>
   );
 }
