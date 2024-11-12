@@ -9,6 +9,10 @@ export type SiteConfig = {
   };
 };
 
+export type DashboardConfig = {
+  sidebarNav: SidebarNavItem[];
+};
+
 export type TWishlistParams = {
   email: string;
 };
