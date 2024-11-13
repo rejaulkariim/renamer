@@ -41,7 +41,7 @@ const TermsPage = () => {
       </div>
 
       <div className="mt-6 space-y-2">
-        <h3 className="font-bold">03. Governing Law</h3>
+        <h3 className="font-bold">04. Governing Law</h3>
         <p className="text-base font-normal text-muted-foreground">
           These terms are governed by the laws where Renamer.me operates. Any
           disputes will be handled in our local courts.
@@ -49,7 +49,7 @@ const TermsPage = () => {
       </div>
 
       <div className="mt-6 space-y-2">
-        <h3 className="font-bold">04. Changes to Terms</h3>
+        <h3 className="font-bold">05. Changes to Terms</h3>
         <p className="text-base font-normal text-muted-foreground">
           We may update these terms occasionally. It’s a good idea to check back
           here from time to time.
@@ -57,7 +57,7 @@ const TermsPage = () => {
       </div>
 
       <div className="mt-6 space-y-2">
-        <h3 className="font-bold">05. Contact</h3>
+        <h3 className="font-bold">06. Contact</h3>
         <p className="text-base font-normal text-muted-foreground">
           If you have questions, please reach out to us at renamerme@gmail.com
         </p>
