@@ -33,6 +33,7 @@ import {
   SidebarRail,
 } from "@/components/ui/sidebar";
 import { dashboardLinks } from "@/constants";
+import Link from "next/link";
 
 const DashboardSidebar = () => {
   return (
@@ -50,10 +51,12 @@ const DashboardSidebar = () => {
               >
                 <SidebarMenuItem>
                   <CollapsibleTrigger asChild>
-                    <SidebarMenuButton tooltip={item.name}>
-                      {item.icon && <item.icon />}
-                      <span>{item.name}</span>
-                    </SidebarMenuButton>
+                    <Link href={item.url}>
+                      <SidebarMenuButton tooltip={item.name}>
+                        {item.icon && <item.icon />}
+                        <span>{item.name}</span>
+                      </SidebarMenuButton>
+                    </Link>
                   </CollapsibleTrigger>
                 </SidebarMenuItem>
               </Collapsible>

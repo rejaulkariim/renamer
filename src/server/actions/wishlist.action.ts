@@ -30,3 +30,14 @@ export async function CreateWishlist(params: TWishlistParams) {
     message: "You've joined the waitlist successfully.",
   };
 }
+
+export const GetWishlist = async () => {
+  const wishlist = await db.wishlist.findMany();
+
+  return {
+    status: 200,
+    success: true,
+    message: "Wishlist retrieved successfully.",
+    data: wishlist,
+  };
+};

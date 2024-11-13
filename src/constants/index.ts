@@ -13,7 +13,7 @@ export const dashboardLinks = [
   },
   {
     name: "Wishlist",
-    url: "/admin/dashboard/wishlist",
+    url: "/admin/dashboard/wishlists",
     icon: Mail,
   },
 ];
