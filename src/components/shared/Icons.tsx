@@ -1,6 +1,7 @@
 type IconProps = React.HTMLAttributes<SVGElement>;
 
 import {
+  ArrowLeft,
   Asterisk,
   BriefcaseBusiness,
   CircleCheck,
@@ -10,6 +11,7 @@ import {
 
 export const Icons = {
   logo: Asterisk,
+  back: ArrowLeft,
   loader: Loader,
   check: CircleCheck,
   bag: BriefcaseBusiness,
