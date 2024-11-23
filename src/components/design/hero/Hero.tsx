@@ -81,7 +81,7 @@ const Hero = () => {
                 </div>
 
                 <p className="text-sm font-medium text-foreground mt-1">
-                  <span>10</span> happy customers
+                  <span>100</span> makers join the waitlist
                 </p>
               </div>
             </div>
